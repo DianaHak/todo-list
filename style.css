@@ -1,0 +1,41 @@
+body{
+    background-color: #FAF3F0;
+}
+h2{
+    padding: 10px;
+}
+#main{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+}
+#Newtask{
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+#addBtn{
+    padding: 15px;
+    border: none;
+    background: #FFCACC;
+    border-radius: 15px;
+}
+.complete-btn{
+    padding: 10px;
+    border: none;
+    background: #FFCACC;
+    border-radius: 15px;
+}
+.task-item{
+    padding: 15px;
+    border-bottom: solid 1px #DBC4F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-item.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+    color: #6c757d;
+}
