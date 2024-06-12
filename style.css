@@ -34,8 +34,15 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+
 .task-item.completed {
     opacity: 0.5;
     text-decoration: line-through;
     color: #6c757d;
+}
+@media only screen and (max-width: 600px) {
+ #main{
+    width: 90%;
+   
+}
 }
